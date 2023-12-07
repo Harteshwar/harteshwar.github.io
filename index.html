@@ -1,14 +1,22 @@
 <!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>My test page</title>
-  </head>
-  <body>
-    <h1>Exploring the Wonders of Space</h1>
-    <p>
-      Space, the final frontier, is a vast and <strong>mysterious</strong> realm that has fascinated humanity for centuries. From the <strong>glowing</strong> rings of Saturn to the <strong>enigmatic</strong> surface of Mars, each celestial body tells a unique story of cosmic evolution. For more fascinating facts, visit <a href="https://www.nasa.gov">NASA's official website</a>.
-    </p>
-    <img src="https://source.unsplash.com/featured/?space" alt="Stunning view of space" />
-  </body>
+<html>
+<head>
+    <title>Fancify My Text</title>
+    <script src="fancifymytext.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Text</legend>
+        <textarea id="textInput" rows="4" cols="30"></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Fancify</legend>
+        <button id="biggerBtn">Bigger!</button>
+        <input type="radio" id="fancyShmancy" name="style" onchange="changeStyle()">FancyShmancy
+        <input type="radio" id="boringBetty" name="style" onchange="changeStyle()">BoringBetty
+    </fieldset>
+
+    <button id="mooBtn">Moo</button>
+</body>
 </html>
